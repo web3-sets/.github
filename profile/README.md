@@ -6,7 +6,7 @@ The primary objective is to contextualize relationships between different Entity
 
 | Introduction  | Application |
 | ------------- | ------------- |
-| <p>Quick introduction to Web3 Set Theory using example and demo quests implementing a conditions/rules validations library to compare transactions to SmartContract set conditions and rules. </p>  | <p><img src='https://github.com/web3-set-theory/.github/blob/main/profile/app.jpeg?raw=true' align="right" width="100%" ></p><p><span>[EthDenver Demo Application](https://web3-set-theory.github.io/)</span></p> |
+| <p>Quick introduction to Web3 Set Theory using example and demo quests implementing a conditions/rules validations library to compare transactions to SmartContract set conditions and rules. </p>  | <p><img src='https://github.com/web3-set-theory/.github/blob/main/profile/app.jpeg?raw=true' align="right" width="320px" ></p><p><span>[EthDenver Demo Application](https://web3-set-theory.github.io/)</span></p> |
 
 
 Quick introduction to Web3 Set Theory using example and demo quests implementing a conditions/rules validations library to compare transactions to SmartContract set conditions and rules. 
