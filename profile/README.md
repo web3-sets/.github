@@ -2,9 +2,9 @@
 
 Web3 Set Theory is an entities, conditions and rules based [informal set theory](https://en.wikipedia.org/wiki/Set_theory) based schema for constructing a Web3 Ethereum Metaverse across EVM compute environments native cryptographic Entity types: smart contracts, decentralized and  identifiers.
 
-| Application         | Application   |
+| Application   | Example       |
 | ------------- | ------------- |
-| <p>Introduction to Web3 Set Theory using examples and demo quests for Uniswap, PoolTogether and other popular Decentralized Finance applications. </p>  | <img src='https://github.com/web3-set-theory/.github/blob/main/profile/app.jpeg?raw=true' align="right" width="380px" > |
+| <p>Introduction to Web3 Set Theory using examples and demo quests for Uniswap, PoolTogether and other popular Decentralized Finance applications. </p>  | <p><img src='https://github.com/web3-set-theory/.github/blob/main/profile/app.jpeg?raw=true' align="right" width="380px" ></p> |
 
 ### Hypothesis
 
