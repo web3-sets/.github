@@ -2,9 +2,11 @@
 
 Web3 Set Theory is an entities, conditions and rules based [informal set theory](https://en.wikipedia.org/wiki/Set_theory) based schema for constructing a Web3 Ethereum Metaverse across EVM compute environments native cryptographic Entity types: smart contracts, decentralized and  identifiers.
 
+Web3 Set Theory helps to contextualize User journeys in decentralized environments by connecting actions/steps between resources like smart contracts and third-parties like decentralized identifiers. Inspired from the scalability of formal set theory and approachability of informal set theory, Web3 Set Theory takes aim at solving the complex problem of defining and formalizing relationships across digital resources and assets in a constantly evolving landscape.
+
 | Application   | Example       |
 | ------------- | ------------- |
-| <p>Introduction to Web3 Set Theory using examples and demo quests for Uniswap, PoolTogether and other popular Decentralized Finance applications. </p>  | <p><img src='https://github.com/web3-set-theory/.github/blob/main/profile/app.jpeg?raw=true' align="right" width="380px" ></p> |
+| <p>Introduction to Web3 Set Theory using examples and demo quests for Uniswap, PoolTogether and other popular Decentralized Finance applications. </p>  | <p><br/><img src='https://github.com/web3-set-theory/.github/blob/main/profile/app.jpeg?raw=true' align="right" width="380px" ><br/></p> |
 
 ### Hypothesis
 
@@ -52,9 +54,3 @@ The `@web3-set-theory/validate` node module certifies EVMState and Web3EntitySet
 ![CI](https://github.com/web3-set-theory/validation/actions/workflows/main.yml/badge.svg)
 ![ts](https://badgen.net/badge/-/TypeScript?icon=typescript&label&labelColor=blue&color=555555)
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
-
-## Applying Set Theory to Web3 Entities
-
-The objective of Web3 Set Theory is to formalize a machine-readable instructions for creating relationships across and between Web3 entities.
-
-Or more simply put, Web3 Set Theory helps to contextualize User journeys in decentralized environments by connecting actions/steps between resources like smart contracts and third-parties like decentralized identifiers. Inspired from the scalability of formal set theory and approachability of informal set theory, Web3 Set Theory takes aim at solving the complex problem of defining and formalizing relationships across digital resources and assets in a constantly evolving landscape.
