@@ -6,7 +6,7 @@ Web3 Set Theory helps to contextualize User journeys in decentralized environmen
 
 | Application   | Example       |
 | ------------- | ------------- |
-| <p>Introduction to Web3 Set Theory using examples and demo quests for Uniswap, PoolTogether and other popular Decentralized Finance applications. </p>  | <p><br/><img src='https://github.com/web3-set-theory/.github/blob/main/profile/app.jpeg?raw=true' align="right" width="380px" ><br/></p> |
+| <p>Introduction to Web3 Set Theory using examples and demo quests for Uniswap, PoolTogether and other popular Decentralized Finance applications. </p>  | <p><img src='https://github.com/web3-set-theory/.github/blob/main/profile/app.jpeg?raw=true' align="right" width="380px" ><br/></p><br/> |
 
 ### Hypothesis
 
