@@ -4,7 +4,7 @@ Web3 Set Theory is an entities, conditions and rules based [informal set theory]
 
 | Application         | Application   |
 | ------------- | ------------- |
-| <p>Introduction to Web3 Set Theory using examples and demo quests for Uniswap, PoolTogether and other popular Decentralized Finance applications. </p>  | <p><img src='https://github.com/web3-set-theory/.github/blob/main/profile/app.jpeg?raw=true' align="right" width="380px" ></p><br/><p><span>[Demo Application](https://web3-set-theory.github.io/)</span></p> |
+| <p>Introduction to Web3 Set Theory using examples and demo quests for Uniswap, PoolTogether and other popular Decentralized Finance applications. </p>  | <img src='https://github.com/web3-set-theory/.github/blob/main/profile/app.jpeg?raw=true' align="right" width="380px" > |
 
 ### Hypothesis
 
