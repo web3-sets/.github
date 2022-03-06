@@ -2,6 +2,8 @@
 
 Web3 Set Theory is an entities, conditions and rules based [informal set theory](https://en.wikipedia.org/wiki/Set_theory) based schema for constructing a Web3 Ethereum Metaverse across EVM compute environments native cryptographic Entity types: smart contracts, decentralized and  identifiers.
 
+https://web3-set-theory.github.io
+
 ### Hypothesis
 
 EVM compute environments are expanding and all evidence is pointing to continued growth and propagation of EVM compute environments. Between, sidechains like Polygon/Avalanche and L2s like Aribitrum/Optimism we are already experiencing the outgrowth of Ethereum mainnet into new EVM compute state - protocols with varying security implementations and finality guarantees.
@@ -60,21 +62,4 @@ Or more simply put, Web3 Set Theory helps to contextualize User journeys in dece
 
 | About  | Application |
 | ------------- | ------------- |
-| <p>Quick introduction to Web3 Set Theory using example and demo quests implementing a conditions/rules validations library to compare transactions to SmartContract set conditions and rules. </p>  | <p><img src='https://github.com/web3-set-theory/.github/blob/main/profile/app.jpeg?raw=true' align="right" width="380px" ></p><br/><p><span>[EthDenver Demo Application](https://web3-set-theory.github.io/)</span></p> |
-
-## Libraries
-
-### Schema ([Module](https://github.com/web3-set-theory/schema))
-The Web3 Set Theory schema defines a simple, but extensible interface for applying information set theory to Web3 entities.
-
-The primary objective is to contextualize relationships between different Entity types in varying EVM compute environments using a simple off-chain set based schema to organize the who, what, when, where, how... and why.
-
-
-<!-- Quick introduction to Web3 Set Theory using example and demo quests implementing a conditions/rules validations library to compare transactions to SmartContract set conditions and rules.  -->
-
-<!--
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
-
-<!-- 
-<p>A Set is a collection of entities, conditions and rules. The entities must share similar properties and behaviors. The conditions define what "context" should be applied to entities. And finally rules relationships between entities contained within the set</p> -->
+| <p>Quick introduction to Web3 Set Theory using example and demo quests implementing a conditions/rules validations library to compare transactions to SmartContract set conditions and rules. </p>  | <p><img src='https://github.com/web3-set-theory/.github/blob/main/profile/app.jpeg?raw=true' align="right" width="380px" ></p><br/><p><span>[Demo Application](https://web3-set-theory.github.io/)</span></p> |
