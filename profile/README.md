@@ -39,7 +39,7 @@ The Web3SetTheory system is currently comprised of two primary modules: schema a
 
 ## Schema ([Module](https://github.com/web3-set-theory/schema))
 
-The `@web3-set-theory/schema` node module defines Web3 Set Theory schema in JSON Schema and interface via Typescript.
+The `@web3-set-theory/schema` node module defines Web3 Set Theory schema in JSON Schema and Typescript interfaces.
 
 ![CI](https://github.com/web3-set-theory/schema/actions/workflows/main.yml/badge.svg)
 ![ts](https://badgen.net/badge/-/TypeScript?icon=typescript&label&labelColor=blue&color=555555)
@@ -47,7 +47,7 @@ The `@web3-set-theory/schema` node module defines Web3 Set Theory schema in JSON
 
 ## Validation ([Module](https://github.com/web3-set-theory/validation))
 
-The `@web3-set-theory/validate` node module validates EVMState and Web3EntitySets via implementation of `@web3-set-theory/schema`. 
+The `@web3-set-theory/validate` node module certifies EVMState and Web3EntitySets via a Web3SetTheory validation engine.
 
 ![CI](https://github.com/web3-set-theory/validation/actions/workflows/main.yml/badge.svg)
 ![ts](https://badgen.net/badge/-/TypeScript?icon=typescript&label&labelColor=blue&color=555555)
