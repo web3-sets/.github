@@ -1,70 +1,59 @@
 # 🧬 Web3 Set Theory
 
-Web3 Set Theory is an entities, conditions and rules based [informal set theory](https://en.wikipedia.org/wiki/Set_theory) based schema for constructing a Web3 Metaverse across EVM compute environments using native cryptographic Entity types: smart contracts, decentralized identifiers and future additions.
+Web3 Set Theory is an entities, conditions and rules based [informal set theory](https://en.wikipedia.org/wiki/Set_theory) based schema for constructing a Web3 Ethereum Metaverse across EVM compute environments native cryptographic Entity types: smart contracts, decentralized and  identifiers.
 
-## Introduction
+### Hypothesis
 
-A Set is a collection of entities, conditions and rules. The entities must share similar properties and behaviors. The conditions define what "context" should be applied to entities. And finally rules relationships between entities contained within the set.
+EVM compute environments are expanding and all evidence is pointing to continued growth and propagation of EVM compute environments. Between, sidechains like Polygon/Avalanche and L2s like Aribitrum/Optimism we are already experiencing the outgrowth of Ethereum mainnet into new EVM compute state - protocols with varying security implementations and finality guarantees.
 
-**All set schemas share the following core properties:**
+The complexity to manage the outgrowth of EVM computes will grow exponentially.
 
-- Entities
-- Conditions
-- Rules
+A formal system to capture the "meta state of all EVM compute environments" is required to successfully moved forward in the Ethereum Cambrian Era.
 
-The inherit simplicity, but also ability to define complex systems makes informal set theory a great candidate for mapping the emergent Ethereum metaverse.
+### How
+Using a formal specification (JSON Schema) a `EVMState` and `Web3EntitySet` validation engine has been implemented to facilitate the expression of informal set theory across interconnected EVM compute environments. The schema defines how to structure Web3 Entity relationships and state condition matching with a flexible rule based system.
 
-Each Set type includes an entities, conditions and rules field, but each type has a unique Interfaces for the child items, which creates schema predictability across set types, but also flexibility as the system grows.
+### Why
 
-## Basic Set Examples
+The secondary effect of the EVMState/Web3EntitySet validation engine is a "MultiChain Web3 Metaverse Questing Protocol" which can capture expressive user journeys in an Ethereum ecosystem via machine-readable instruction sets.
 
-```yml
-SmartContractSet
-    entities
-        smartcontract-1
-    conditions
-        condition-1
-    rules
-        rule-1
-```
+The first iteration of Web3 Set Theory will include 3 Entity types: 
 
-```yml
-DecentralizedIdentifierSet
-    entities
-        did-1
-    conditions
-        condition-1
-    rules
-        rule-1
-```
+- Smart Contract (Web3 Entity)
+- Decentralized Identifier (Web3 Entity)
+- Meta (Protocol Entity)
 
-```yml
-MetaSet
-    entities
-        set-smartcontract-1
-        set-decentralizedidentifier-1
-    conditions
-        condition-all
-    rules
-        rule-all
-```
+Both the `SmartContract` and `DecentralizedIdentifier` entities are Web3 native cryptographic entities.
 
+The `Meta` entity is not a Web3 entity, but instead a Set Theory construction used to organize "sets of sets" and to facilitate the full expression of set theory that can scale to fully express all possible relationships defined across all EVM compute environments.
 
-### Minimal Smart Contract Set YAML Implementation
-```yml
-id: uniswap-swap-eth
-name: Set (UniswapV2: Swap for ETH)
-entities
-    name: uniswapV2Router
-    address: 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
-conditions
-    function: swapExactTokensForETH(uint256,uint256,address[],address,uint256)
-    arguments
-        index: 1,
-        type: bignumber,
-        condition: gte,
-        value: 10000000000000000000
-```
+A Meta set (Set to contain Sets) can link together `SmartContract` and `DecentralizedIdentifier` sets. Meaning Entities that have different cryptographic primitives can still be formally linked together in a unified set and validated together. Put simply, a set can express both that a user needs to interact with a smart contract in a specific way and that same user must also complete an action with a decentralized identifier in a specific way.
+
+# Modules
+
+The Web3SetTheory system is currently comprised of two primary modules: schema and validation.
+
+## Schema ([Module](https://github.com/web3-set-theory/schema))
+
+The `@web3-set-theory/schema` node module defines Web3 Set Theory schema in JSON Schema and interface via Typescript.
+
+![CI](https://github.com/web3-set-theory/schema/actions/workflows/main.yml/badge.svg)
+![ts](https://badgen.net/badge/-/TypeScript?icon=typescript&label&labelColor=blue&color=555555)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+
+## Validation ([Module](https://github.com/web3-set-theory/validation))
+
+The `@web3-set-theory/validate` node module validates EVMState and Web3EntitySets via implementation of `@web3-set-theory/schema`. 
+
+![CI](https://github.com/web3-set-theory/validation/actions/workflows/main.yml/badge.svg)
+![ts](https://badgen.net/badge/-/TypeScript?icon=typescript&label&labelColor=blue&color=555555)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+
+## Applying Set Theory to Web3 Entities
+
+The objective of Web3 Set Theory is to formalize a machine-readable instructions for creating relationships across and between Web3 entities.
+
+Or more simply put, Web3 Set Theory helps to contextualize User journeys in decentralized environments by connecting actions/steps between resources like smart contracts and third-parties like decentralized identifiers. Inspired from the scalability of formal set theory and approachability of informal set theory, Web3 Set Theory takes aim at solving the complex problem of defining and formalizing relationships across digital resources and assets in a constantly evolving landscape.
 
 
 ## Demonstrations
@@ -72,7 +61,6 @@ conditions
 | About  | Application |
 | ------------- | ------------- |
 | <p>Quick introduction to Web3 Set Theory using example and demo quests implementing a conditions/rules validations library to compare transactions to SmartContract set conditions and rules. </p>  | <p><img src='https://github.com/web3-set-theory/.github/blob/main/profile/app.jpeg?raw=true' align="right" width="380px" ></p><br/><p><span>[EthDenver Demo Application](https://web3-set-theory.github.io/)</span></p> |
-
 
 ## Libraries
 
