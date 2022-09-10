@@ -14,11 +14,11 @@ Validating infinitely complex state rulesets against finite range EVM states.
 
 ### Hypothesis
 
-EVM compute environments are expanding and all evidence is pointing to continued growth and propagation of EVM compute environments. Between, sidechains like Polygon/Avalanche and L2s like Aribitrum/Optimism we are already experiencing the outgrowth of Ethereum mainnet into new EVM compute state - protocols with varying security implementations and finality guarantees.
+EVM compute environments are expanding and all evidence is pointing to continued growth and propagation of EVM compute environments. Between, sidechains like Polygon/Avalanche and L2s like Aribitrum/Optimism we are already experiencing the outgrowth of Ethereum mainnet into new EVM compute state.
 
-The complexity to manage the outgrowth of EVM computes will grow exponentially.
+The complexity to manage the outgrowth of EVM computes will continue to grow.
 
-A formal system to capture the "meta state of all EVM compute environments" is required to successfully moved forward in the Ethereum Cambrian Era.
+A formal system to capture the "meta state of all EVM compute environments" is required to effectively map and compose on-chain APIs.
 
 ### How
 Using a formal specification (JSON Schema) a `EVMState` and `Web3EntitySet` validation engine has been implemented to facilitate the expression of informal set theory across interconnected EVM compute environments. The schema defines how to structure Web3 Entity relationships and state condition matching with a flexible rule based system.
