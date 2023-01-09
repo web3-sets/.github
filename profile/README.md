@@ -1,6 +1,6 @@
 # 🧬 Web3 Set Theory
 
-Web3 Set Theory is an entities, conditions and rules based [informal set theory](https://en.wikipedia.org/wiki/Set_theory) based schema for constructing a Web3 resource maps across EVM compute environments.
+Web3 Set Theory is an entities, conditions and rules based [set theory](https://en.wikipedia.org/wiki/Set_theory) based schema for constructing resource maps across EVM compute environments.
 
 Web3 Set Theory helps contextualize complex User Journeys in decentralized environments by creating storylines between decentralized resources: smart contracts and other future Web3 entities.
 
